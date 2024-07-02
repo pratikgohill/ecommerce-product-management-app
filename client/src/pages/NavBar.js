@@ -152,7 +152,9 @@ const NavBar = () => {
             </Button>
 
             <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link component={Cart} to="/cart"></Link>
+              <Link component={Cart} to="/cart">
+                Cart
+              </Link>
             </Button>
           </Box>
         </Toolbar>
